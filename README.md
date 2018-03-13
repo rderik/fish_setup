@@ -20,12 +20,12 @@ they are called on my `config.fish` script.
  set -e conf_files
 ```
 
-This setup uses (fisherman)[https://fisherman.github.io/] to manage fish plugins.
+This setup uses [fisherman](https://fisherman.github.io/) to manage fish plugins.
 
 Follow the instructions there to install it and use it.
 
 ## Aliases
 
-In this setup there are no aliases created for fish every alias has been converted into a fish function taking advantage of the autoloading, you can check this (link)[https://github.com/jorgebucaran/fish-shell-cookbook#whats-wrong-with-aliases] that does a better job on explaining the why, so you'll find the alises on this repo but as functions inside the functions directory.
+In this setup there are no aliases created for fish every alias has been converted into a fish function taking advantage of the autoloading, you can check this [link](https://github.com/jorgebucaran/fish-shell-cookbook#whats-wrong-with-aliases) that does a better job on explaining the why, so you'll find the alises on this repo but as functions inside the functions directory.
 
 
