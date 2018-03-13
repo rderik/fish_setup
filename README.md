@@ -22,7 +22,24 @@ they are called on my `config.fish` script.
 
 This setup uses [fisherman](https://fisherman.github.io/) to manage fish plugins.
 
-Follow the instructions there to install it and use it.
+Follow the instructions in the link to install fisherman.
+
+The normal installation of this setup would be to clone it first then run the `create_fish_function_links.fish` script to create the links
+
+`git clone /Users/derik/Documents/Development/github/fish_setup/copy-ls.fish [PATH_YOU_WISH_TO_INSTALL_THIS_SETUP]`
+
+`source create_fish_function_links.fish`
+
+I would suggest to make a copy if your `config.fish` before so you can go back to that configuration.
+
+## Uninstall the linked functions
+
+they are just links so just delete them you can do the following:
+
+`cd $HOME/.config/fish/functions`
+`rm copy-ls.fish extra.fish fish_mode_prompt.fish fish_prompt.fish fish_right_prompt.fish la.fish ll.fish lrt.fish lsd.fish lsf.fish path.fish tmux.fish variables.fish`
+
+
 
 ## Aliases
 
